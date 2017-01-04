@@ -6,6 +6,18 @@ Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
 There are two methods for getting started with this repo.
 
+###API Key###
+In order for this to work you will need an API key form google/youtube.
+in the project root create a file and name it 'config.js', its file structure should be:
+```javascript
+    var config = {
+      API_KEY: '>>>> Your API key goes here <<<<<<'
+    };
+    
+    export default config;
+```
+
+
 ####Familiar with Git?#####
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
@@ -23,3 +35,5 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 	> npm install
 	> npm start
 ```
+
+
