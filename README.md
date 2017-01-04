@@ -11,7 +11,7 @@ In order for this to work you will need an API key form google/youtube.
 in the project root create a file and name it 'config.js', its file structure should be:
 ```javascript
     var config = {
-      API_KEY: '>>>> Your API key goes here <<<<<<'
+      API_KEY: 'YOUR_API_KEY'
     };
     
     export default config;
